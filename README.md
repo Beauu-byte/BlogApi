@@ -30,44 +30,6 @@ A robust RESTful API for a blog application with comprehensive authentication an
 - `POST /api/v1/likes/unlike` - Unlike a post
 - `GET /api/v1/dummyroute` - Protected test route
 
-### Public Routes
-- `GET /api/v1/posts` - Get all posts (public)
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Beauu-byte/BlogApi.git
-cd BlogApi
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Create a `.env` file in the root directory:
-```env
-DATABASE_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-PORT=3000
-```
-
-4. Start the server:
-```bash
-npm start
-```
-
-For development:
-```bash
-npm run dev
-```
-
-## Environment Variables
-
-- `DATABASE_URL` - MongoDB connection string
-- `JWT_SECRET` - Secret key for JWT token generation
-- `PORT` - Server port (default: 3000)
 
 ## Technologies Used
 
@@ -112,7 +74,3 @@ blogApp/
 - ✅ Input validation
 - ✅ Error handling
 - ✅ Environment variable management
-
-## License
-
-ISC 
